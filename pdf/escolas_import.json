@@ -1,0 +1,175 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel escolas import}","hidden":"{$item_hide_import_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$cod_escola_pdfvalue},"hidden":"{$item_hide_import_field}"},
+				
+				
+			{"text":{$CNPJ_pdfvalue},"hidden":"{$item_hide_import_field1}"},
+				
+				
+			{"text":{$Nome_pdfvalue},"hidden":"{$item_hide_import_field2}"},
+				
+				
+			{"text":{$Endere_o_pdfvalue},"hidden":"{$item_hide_import_field3}"},
+				
+				
+			{"text":{$Email_pdfvalue},"hidden":"{$item_hide_import_field4}"},
+				
+				
+			{"text":{$Telefone_pdfvalue},"hidden":"{$item_hide_import_field5}"},
+				
+				
+			{"text":{$Descri__o_pdfvalue},"hidden":"{$item_hide_import_field6}"},
+				
+				
+			{"text":{$Drae_pdfvalue},"hidden":"{$item_hide_import_field7}"},
+				
+				
+			{"text":{$Bairro_pdfvalue},"hidden":"{$item_hide_import_field8}"},
+				
+				
+			{"text":{$Cidade_pdfvalue},"hidden":"{$item_hide_import_field9}"},
+				
+				
+			{"text":{$Estado_pdfvalue},"hidden":"{$item_hide_import_field10}"},
+				
+				
+			{"text":{$Direc_pdfvalue},"hidden":"{$item_hide_import_field13}"},
+				
+				
+			{"text":{$Cep_pdfvalue},"hidden":"{$item_hide_import_field14}"},
+				
+				
+			{"text":{$Obs_pdfvalue},"hidden":"{$item_hide_import_field17}"},
+				
+				
+			{"text":{$EmailDrae_pdfvalue},"hidden":"{$item_hide_import_field18}"},
+				
+				
+			{"text":{$Municipio_pdfvalue},"hidden":"{$item_hide_import_field19}"},
+				
+				
+			{"text":{$fullname_pdfvalue},"hidden":"{$item_hide_import_field11}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  

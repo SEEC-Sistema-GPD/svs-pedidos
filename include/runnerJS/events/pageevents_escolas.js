@@ -1,0 +1,2 @@
+
+Runner.pages.PageSettings.addPageEvent('escolas',Runner.pages.constants.PAGE_EDIT,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var ctrlcnpj=Runner.getControl(pageid,'CNPJ');ctrlcnpj.makeReadonly();});

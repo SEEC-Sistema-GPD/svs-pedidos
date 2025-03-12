@@ -1,0 +1,6 @@
+
+Runner.buttonEvents["New_Button2"]=function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='New_Button2';if(!pageObj.buttonEventBefore['New_Button2']){pageObj.buttonEventBefore['New_Button2']=function(params,ctrl,pageObj,proxy,pageid,rowData,row,submit){var ajax=ctrl;}}
+if(!pageObj.buttonEventAfter['New_Button2']){pageObj.buttonEventAfter['New_Button2']=function(result,ctrl,pageObj,proxy,pageid,rowData,row,params){var ajax=ctrl;function post(path,parameters){var form=$('<form></form>');form.attr("method","post");form.attr("action",path);form.attr("target","_blank");$.each(parameters,function(key,value){var field=$('<input></input>');field.attr("type","hidden");field.attr("name",key);field.attr("value",value);form.append(field);});$(document.body).append(form);form.submit();}
+var message=result["error"];if(message==''){post('pedidos_view_print.php',{page:'print1',records:1,details:['itens_view']});}else{alert(message);}}}
+$('a[id="New_Button2"]').each(function(){if($(this).closest('.gridRowAdd').length){return;}
+this.id="New_Button2"+"_"+Runner.genId();var button_New_Button2=new Runner.form.Button({id:this.id,btnName:"New_Button2"});button_New_Button2.init({args:[pageObj,proxy,pageid]});});};

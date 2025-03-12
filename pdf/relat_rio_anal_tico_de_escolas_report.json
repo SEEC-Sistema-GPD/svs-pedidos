@@ -1,0 +1,1295 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+			},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+		{BEGIN body}
+		{BEGIN embedded_grid_caption}
+			{
+				text: '{$jscaption Relat_rio_Anal_tico_de_Escolas}',
+			},
+		{END embedded_grid_caption}
+		{BEGIN embedded_page_title}
+			{
+				text: '{$jspagetitlelabel Relat_rio_Anal_tico_de_Escolas report}',
+			},
+		{END embedded_page_title}		
+		{ 
+			{BEGIN standalone_page}
+			pageBreak: 'before',
+			standAlonePage: true,
+			{END standalone_page}
+			{BEGIN embedded_grid}
+			embeddedPage: true,
+			{END embedded_grid}
+			layout: {
+				hLineWidth: function(i, node) { return 0.1; },
+				vLineWidth: function(i, node) { 
+					return 0.1; 
+				},
+				hLineColor: function(i, node) { return 'lightgray'; },
+				vLineColor: function(i, node) { return 'lightgray'; },
+			},
+			table: {
+				{BEGIN embedded_grid}
+				embeddedPage: true,
+				{END embedded_grid}
+				
+				tableForm: true,
+				headerRows: 1 
+								{BEGIN embedded_grid} -1 {END embedded_grid} ,
+
+				widths: [
+														{BEGIN col_grid_0}
+					"%",
+					{END col_grid_0}
+										{BEGIN col_grid_1}
+					"%",
+					{END col_grid_1}
+										{BEGIN col_grid_2}
+					"%",
+					{END col_grid_2}
+										{BEGIN col_grid_3}
+					"%",
+					{END col_grid_3}
+										{BEGIN col_grid_4}
+					"%",
+					{END col_grid_4}
+										{BEGIN col_grid_5}
+					"%",
+					{END col_grid_5}
+										{BEGIN col_grid_6}
+					"%",
+					{END col_grid_6}
+															],
+											heights: [ // first height for header part
+					"%",
+																		{BEGIN row_grid_0}
+							"%",
+							{END row_grid_0}
+																								{BEGIN row_grid_1}
+							"%",
+							{END row_grid_1}
+																								{BEGIN row_grid_2}
+							"%",
+							{END row_grid_2}
+																							 	{BEGIN grid_row}
+													{BEGIN row_grid_3}
+							"%",
+							{END row_grid_3}
+													{END grid_row}
+																								{BEGIN row_grid_4}
+							"%",
+							{END row_grid_4}
+																								{BEGIN row_grid_5}
+							"%",
+							{END row_grid_5}
+																								{BEGIN row_grid_6}
+							"%",
+							{END row_grid_6}
+																								{BEGIN row_grid_7}
+							"%",
+							{END row_grid_7}
+															],
+							
+				body: [
+				{BEGIN standalone_page}
+					[
+						{
+							colSpan: {$formwidth_grid},
+							border:[false, false,false,false],
+							stack: [
+
+																										
+''
+,
+								
+																										
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+											"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+																							{
+	cellId: 'c2',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"Exibindo %first% - %last% de %total%","hidden":"{$item_hide_details_found}","isHtml":true,"page_indicator":true},
+				
+				
+			{"text":"","hidden":"{$item_hide_page_size}"},
+				
+				
+			{"text":"","hidden":"{$item_hide_print_panel}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'right',
+     
+      
+      },
+
+											],
+						[
+																{
+	cellId: 'c',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+																							{
+	cellId: 'c3',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'right',
+     
+      
+      },
+
+											],
+						[
+																{
+	cellId: 'c4',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+					colSpan: 2,
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"SISPED - Relatório Analítico de Escolas por DRAE / DIREC","hidden":"{$item_hide_text}","isHtml":true},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'center',
+     
+      
+      },
+
+																		{ 
+				cellId: 'c4',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+							],
+		
+		]
+	}
+}
+,
+															]
+						},
+					],
+				{END standalone_page}
+
+																	
+{BEGIN grid_row}
+							
+	{BEGIN Drae_newgroup}
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_headcell_groupfield}
+{
+	cellId: 'headcell_groupfield',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Drae }","hidden":"{$item_hide_grid_group_field_label}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_groupfield}
+																							{BEGIN cellblock_grid_headcell_groupfield1}
+{
+	cellId: 'headcell_groupfield1',
+	col:0,
+	row:0,
+			fieldName: 'Direc',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Direc }","hidden":"{$item_hide_grid_group_field_label1}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_groupfield1}
+																							{BEGIN cellblock_grid_headcell_field}
+{
+	cellId: 'headcell_field',
+	col:0,
+	row:0,
+			fieldName: 'Nome',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas CNPJ }","hidden":"{$item_hide_report_advanced_field_label5}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field}
+																							{BEGIN cellblock_grid_headcell_field1}
+{
+	cellId: 'headcell_field1',
+	col:0,
+	row:0,
+			fieldName: 'Endere_o',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Nome }","hidden":"{$item_hide_report_advanced_field_label}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field1}
+																							{BEGIN cellblock_grid_headcell_field2}
+{
+	cellId: 'headcell_field2',
+	col:0,
+	row:0,
+			fieldName: 'Bairro',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Endere_o }","hidden":"{$item_hide_report_advanced_field_label1}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field2}
+																							{BEGIN cellblock_grid_headcell_field4}
+{
+	cellId: 'headcell_field4',
+	col:0,
+	row:0,
+			fieldName: 'Municipio',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Bairro }","hidden":"{$item_hide_report_advanced_field_label2}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field4}
+																							{BEGIN cellblock_grid_headcell_field5}
+{
+	cellId: 'headcell_field5',
+	col:0,
+	row:0,
+			fieldName: 'CNPJ',
+				style: 'blackshade ',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Municipio }","hidden":"{$item_hide_report_advanced_field_label4}","bold":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_headcell_field5}
+											],
+				{END row_grid_0}
+						{BEGIN row_grid_1}
+				[
+																{BEGIN cellblock_grid_cell_group_field}
+{
+	cellId: 'cell_group_field',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'header_Drae',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field}
+			colSpan: {$colspan_grid_cell_group_field},
+			{END colspan_grid_cell_group_field}
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$Drae_grval},"hidden":"{$item_hide_grid_group_field}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field}
+																		{ 
+				cellId: 'cell_group_field',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field',
+				row:  0,
+				col:  2,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field',
+				row:  0,
+				col:  3,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field',
+				row:  0,
+				col:  4,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field',
+				row:  0,
+				col:  5,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field',
+				row:  0,
+				col:  6,
+				text: ''
+			},
+							],
+				{END row_grid_1}
+			{END Drae_newgroup}
+
+									
+	{BEGIN Direc_newgroup}
+				{BEGIN row_grid_2}
+				[
+																{BEGIN cellblock_grid_cell_group_empty1}
+{
+	cellId: 'cell_group_empty1',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'group_Drae',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_empty1}
+																							{BEGIN cellblock_grid_cell_group_field1}
+{
+	cellId: 'cell_group_field1',
+	col:0,
+	row:0,
+			fieldName: 'Direc',
+				style: 'header_Direc',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_field1}
+			colSpan: {$colspan_grid_cell_group_field1},
+			{END colspan_grid_cell_group_field1}
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$Direc_grval},"hidden":"{$item_hide_grid_group_field1}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_field1}
+																		{ 
+				cellId: 'cell_group_field1',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field1',
+				row:  0,
+				col:  2,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field1',
+				row:  0,
+				col:  3,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field1',
+				row:  0,
+				col:  4,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_field1',
+				row:  0,
+				col:  5,
+				text: ''
+			},
+							],
+				{END row_grid_2}
+			{END Direc_newgroup}
+
+									
+	{BEGIN row_data}
+				{BEGIN row_grid_3}
+				[
+																{BEGIN cellblock_grid_cell_group_empty2}
+{
+	cellId: 'cell_group_empty2',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'group_Drae',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_empty2}
+																							{BEGIN cellblock_grid_cell_group_empty3}
+{
+	cellId: 'cell_group_empty3',
+	col:0,
+	row:0,
+			fieldName: 'Direc',
+				style: 'group_Direc',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_empty3}
+																							{BEGIN cellblock_grid_cell_field}
+{
+	cellId: 'cell_field',
+	col:0,
+	row:0,
+			fieldName: 'Nome',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$CNPJ_value},"hidden":"{$item_hide_report_advanced_field5}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_field}
+																							{BEGIN cellblock_grid_cell_field1}
+{
+	cellId: 'cell_field1',
+	col:0,
+	row:0,
+			fieldName: 'Endere_o',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$Nome_value},"hidden":"{$item_hide_report_advanced_field}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_field1}
+																							{BEGIN cellblock_grid_cell_field2}
+{
+	cellId: 'cell_field2',
+	col:0,
+	row:0,
+			fieldName: 'Bairro',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$Endere_o_value},"hidden":"{$item_hide_report_advanced_field1}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_field2}
+																							{BEGIN cellblock_grid_cell_field4}
+{
+	cellId: 'cell_field4',
+	col:0,
+	row:0,
+			fieldName: 'Municipio',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$Bairro_value},"hidden":"{$item_hide_report_advanced_field2}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_field4}
+																							{BEGIN cellblock_grid_cell_field5}
+{
+	cellId: 'cell_field5',
+	col:0,
+	row:0,
+			fieldName: 'CNPJ',
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":{$Municipio_value},"hidden":"{$item_hide_report_advanced_field4}"},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_field5}
+											],
+				{END row_grid_3}
+			{END row_data}
+
+									
+	{BEGIN Direc_endgroup}
+				{BEGIN row_grid_4}
+				[
+																{BEGIN cellblock_grid_cell_group_empty}
+{
+	cellId: 'cell_group_empty',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'group_Drae',
+		
+		
+	//	dynamic colspan/rowspan
+
+		
+						
+	
+	
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_empty}
+																							{BEGIN cellblock_grid_cell_group_summary1}
+{
+	cellId: 'cell_group_summary1',
+	col:0,
+	row:0,
+			fieldName: 'Direc',
+				style: 'group_Direc',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_summary1}
+			colSpan: {$colspan_grid_cell_group_summary1},
+			{END colspan_grid_cell_group_summary1}
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"Resumo para","hidden":"{$item_hide_group_summary_label}","isHtml":true},
+				
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Direc }","hidden":"{$item_hide_group_summary_field_label1}","bold":true},
+				
+				
+			{"text":{$Direc_grval},"hidden":"{$item_hide_group_summary_field_value1}"},
+				
+				
+			{"text":"-","hidden":"{$item_hide_group_summary_dash1}","isHtml":true},
+				
+				
+			{"text":"{$groupDirec_total_cnt}","hidden":"{$item_hide_group_summary_count1}"},
+				
+				
+			{"text":"Total de registros","hidden":"{$item_hide_group_summary_label3}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary1}
+																		{ 
+				cellId: 'cell_group_summary1',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary1',
+				row:  0,
+				col:  2,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary1',
+				row:  0,
+				col:  3,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary1',
+				row:  0,
+				col:  4,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary1',
+				row:  0,
+				col:  5,
+				text: ''
+			},
+							],
+				{END row_grid_4}
+			{END Direc_endgroup}
+
+									
+	{BEGIN Drae_endgroup}
+				{BEGIN row_grid_5}
+				[
+																{BEGIN cellblock_grid_cell_group_summary}
+{
+	cellId: 'cell_group_summary',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'group_Drae',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_group_summary}
+			colSpan: {$colspan_grid_cell_group_summary},
+			{END colspan_grid_cell_group_summary}
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"Resumo para","hidden":"{$item_hide_group_summary_label1}","isHtml":true},
+				
+				
+			{"text":"{$jslabel Relat_rio_Anal_tico_de_Escolas Drae }","hidden":"{$item_hide_group_summary_field_label}","bold":true},
+				
+				
+			{"text":{$Drae_grval},"hidden":"{$item_hide_group_summary_field_value}"},
+				
+				
+			{"text":"-","hidden":"{$item_hide_group_summary_dash}","isHtml":true},
+				
+				
+			{"text":"{$groupDrae_total_cnt}","hidden":"{$item_hide_group_summary_count}"},
+				
+				
+			{"text":"Total de registros","hidden":"{$item_hide_group_summary_label2}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_group_summary}
+																		{ 
+				cellId: 'cell_group_summary',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary',
+				row:  0,
+				col:  2,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary',
+				row:  0,
+				col:  3,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary',
+				row:  0,
+				col:  4,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary',
+				row:  0,
+				col:  5,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_group_summary',
+				row:  0,
+				col:  6,
+				text: ''
+			},
+							],
+				{END row_grid_5}
+			{END Drae_endgroup}
+
+									{END grid_row}
+
+									
+	{BEGIN page_summary}
+				{BEGIN row_grid_6}
+				[
+																{BEGIN cellblock_grid_cell_page_summary}
+{
+	cellId: 'cell_page_summary',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'pagesummary',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_page_summary}
+			colSpan: {$colspan_grid_cell_page_summary},
+			{END colspan_grid_cell_page_summary}
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"Página de resumo","hidden":"{$item_hide_page_summary_label1}","isHtml":true},
+				
+				
+			{"text":"-","hidden":"{$item_hide_page_summary_dash}","isHtml":true},
+				
+				
+			{"text":"{$page_total_cnt}","hidden":"{$item_hide_page_summary_count}"},
+				
+				
+			{"text":"Total de registros","hidden":"{$item_hide_page_summary_label2}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_page_summary}
+																		{ 
+				cellId: 'cell_page_summary',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_page_summary',
+				row:  0,
+				col:  2,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_page_summary',
+				row:  0,
+				col:  3,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_page_summary',
+				row:  0,
+				col:  4,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_page_summary',
+				row:  0,
+				col:  5,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_page_summary',
+				row:  0,
+				col:  6,
+				text: ''
+			},
+							],
+				{END row_grid_6}
+			{END page_summary}
+
+					
+	{BEGIN global_summary}
+				{BEGIN row_grid_7}
+				[
+																{BEGIN cellblock_grid_cell_global_summary}
+{
+	cellId: 'cell_global_summary',
+	col:0,
+	row:0,
+			fieldName: 'Drae',
+				style: 'globalsummary',
+		
+		
+	//	dynamic colspan/rowspan
+
+					{BEGIN colspan_grid_cell_global_summary}
+			colSpan: {$colspan_grid_cell_global_summary},
+			{END colspan_grid_cell_global_summary}
+		
+						
+	
+	
+	
+			"text": [
+		
+				
+			{"text":"Resumo Global","hidden":"{$item_hide_global_summary_label1}","isHtml":true},
+				
+				
+			{"text":"-","hidden":"{$item_hide_global_summary_dash}","isHtml":true},
+				
+				
+			{"text":"{$global_total_cnt}","hidden":"{$item_hide_global_summary_count}"},
+				
+				
+			{"text":"Total de registros","hidden":"{$item_hide_global_summary_label2}","isHtml":true},
+				
+		  ],
+  "border": [ true, true, true, true ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_cell_global_summary}
+																		{ 
+				cellId: 'cell_global_summary',
+				row:  0,
+				col:  1,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_global_summary',
+				row:  0,
+				col:  2,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_global_summary',
+				row:  0,
+				col:  3,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_global_summary',
+				row:  0,
+				col:  4,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_global_summary',
+				row:  0,
+				col:  5,
+				text: ''
+			},
+														{ 
+				cellId: 'cell_global_summary',
+				row:  0,
+				col:  6,
+				text: ''
+			},
+							],
+				{END row_grid_7}
+			{END global_summary}
+
+	
+
+									]
+			
+			}
+		},
+		{END body}
+	],
+	footer: [
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"","hidden":"{$item_hide_pagination}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'center',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+			],
+	}

@@ -1,0 +1,541 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-rprint" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="left"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		{BEGIN pdflink_block}
+<span data-itemtype="print_pdf" data-itemid="print_pdf" {$item_print_pdf} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	pdflink" data-pdfpage="rprint" 
+data-scope="0" 
+data-split="0" 
+data-records="10" 
+data-orientation="portrait" 
+data-scale="100" 
+data-filename="Relação de Escolas.pdf" 
+data-pagesize="LETTER" 
+data-pagetype="rprint" 
+{$pdflink_attrs} >
+							Visualização PDF			</a>
+</span>
+{END pdflink_block}
+		</div>					</div>
+			 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c2" data-pageid="{$pageid}"	{$cell_top_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h2 data-itemtype="print_header" data-itemid="print_header" {$item_print_header} data-pageid="{$pageid}" >{$pagetitlelabel Relat_rio_Sint_tico_de_Escolas rprint}</h2>
+	 
+		{BEGIN printtabheader}
+<span data-itemtype="print_subheader" data-itemid="print_subheader" {$item_print_subheader} data-pageid="{$pageid}" >
+{$printtabheader_text}
+</span>
+{END printtabheader}
+		</div>					</div>
+			</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+		 
+		<span data-itemtype="print_pages" data-itemid="print_pages" {$item_print_pages} data-pageid="{$pageid}" data-small >
+	{$print_pages_labelprint_pages}
+</span>			{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<style>
+	td.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary.pagesummary {
+		background-color: #ffffbb;
+	}
+	td.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary.globalsummary {background-color: #ffe0b0;
+	}
+	.rnr-report {
+		width: 100%;
+	}
+	td {
+		padding: 2px 4px;
+	}
+			td.group_Drae{
+			background-color: #FFFFFF;
+		}
+		td.header_Drae {
+			background-color: #D8D8D8; 
+			font-size: 120%;
+			padding: 2px 8px;
+			font-weight: bold;
+		}
+			td.group_Direc{
+			background-color: #FFFFFF;
+		}
+		td.header_Direc {
+			background-color: #D8D8D8; 
+			font-size: 120%;
+			padding: 2px 8px;
+			font-weight: bold;
+		}
+		.blackshade {
+		font-size: 120%;
+	}
+	.summaryrow > * {
+		border:solid #808080 1px; 
+		border-left: none; 
+		border-right: none;
+	}
+</style>
+<table data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" class=" table-striped table-bordered table  r-report " 
+	cellpadding="0" 
+	data-body-height="0"
+>
+<tbody>	
+{BEGIN grid_row}
+							{BEGIN Drae_newgroup}
+
+ 
+	<tr data-section="group" data-group="Drae" data-rowidx="0" {$rowattrs} {$row_grid_0} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_headcell_groupfield3}
+	<th
+	
+	{$cell_grid_headcell_groupfield3}
+	{$recordattrs}
+	class="
+		blackshade  r-align-center r-ori-vert			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_headcell_groupfield3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="text" data-itemid="text" {$item_text} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}" data-small > 
+	SISPED - Relatório Sintetido Escolas por DRAE / DIREC</span>
+	
+	</th>
+	{END cellblock_grid_headcell_groupfield3}
+			</tr>
+ 
+	<tr data-section="group" data-group="Drae" data-rowidx="1" {$rowattrs} {$row_grid_1} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_headcell_groupfield2}
+	<th
+	
+	{$cell_grid_headcell_groupfield2}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_headcell_groupfield2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	
+	</th>
+	{END cellblock_grid_headcell_groupfield2}
+			</tr>
+ 
+	<tr data-section="group" data-group="Drae" data-rowidx="2" {$rowattrs} {$row_grid_2} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_headcell_groupfield}
+	<th
+	
+	{$cell_grid_headcell_groupfield}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_headcell_groupfield" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="grid_group_field_label" data-itemid="grid_group_field_label" {$item_grid_group_field_label} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Drae" data-fieldname="Drae">
+{$label Relat_rio_Sint_tico_de_Escolas Drae }</span>
+
+	
+	</th>
+	{END cellblock_grid_headcell_groupfield}
+		 
+			{BEGIN cellblock_grid_headcell_groupfield1}
+	<th
+	
+	{$cell_grid_headcell_groupfield1}
+	{$recordattrs}
+	class="
+		blackshade   r-ori-vert			"
+
+			data-field="Direc"
+	
+	data-cellId="grid_headcell_groupfield1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="grid_group_field_label" data-itemid="grid_group_field_label1" {$item_grid_group_field_label1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Direc" data-fieldname="Direc">
+{$label Relat_rio_Sint_tico_de_Escolas Direc }</span>
+
+	
+	</th>
+	{END cellblock_grid_headcell_groupfield1}
+			</tr>
+ 
+	<tr data-section="group" data-group="Drae" data-rowidx="3" {$rowattrs} {$row_grid_3} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_field}
+	<td
+	
+	{$cell_grid_cell_group_field}
+	{$recordattrs}
+	class="
+		header_Drae  r-ori-vert			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_cell_group_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="grid_group_field" data-itemid="grid_group_field" {$item_grid_group_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Drae" data-fieldname="Drae" >
+{$Drae_grval}&nbsp;
+</span>	
+	</td>
+	{END cellblock_grid_cell_group_field}
+			</tr>
+
+	{END Drae_newgroup}
+									{BEGIN Direc_newgroup}
+
+ 
+	<tr data-section="group" data-group="Direc" data-rowidx="4" {$rowattrs} {$row_grid_4} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_empty1}
+	<td
+	
+	{$cell_grid_cell_group_empty1}
+	{$recordattrs}
+	class="
+		group_Drae  r-ori-vert			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_cell_group_empty1" data-pageid="{$pageid}" data-record-id="{$recId}"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_cell_group_empty1}
+		 
+			{BEGIN cellblock_grid_cell_group_field1}
+	<td
+	
+	{$cell_grid_cell_group_field1}
+	{$recordattrs}
+	class="
+		header_Direc  r-ori-vert			"
+
+			data-field="Direc"
+	
+	data-cellId="grid_cell_group_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="grid_group_field" data-itemid="grid_group_field1" {$item_grid_group_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Direc" data-fieldname="Direc" >
+{$Direc_grval}&nbsp;
+</span>	
+	</td>
+	{END cellblock_grid_cell_group_field1}
+			</tr>
+
+	{END Direc_newgroup}
+									{BEGIN Direc_endgroup}
+
+ 
+	<tr data-section="group-summary" data-group="Direc" data-rowidx="5" {$rowattrs} {$row_grid_5} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_empty}
+	<td
+	
+	{$cell_grid_cell_group_empty}
+	{$recordattrs}
+	class="
+		group_Drae  r-ori-vert			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_cell_group_empty" data-pageid="{$pageid}" data-record-id="{$recId}"		data-control-cell
+	
+	>
+
+	
+	</td>
+	{END cellblock_grid_cell_group_empty}
+		 
+			{BEGIN cellblock_grid_cell_group_summary1}
+	<td
+	
+	{$cell_grid_cell_group_summary1}
+	{$recordattrs}
+	class="
+		group_Direc 			"
+
+			data-field="Direc"
+	
+	data-cellId="grid_cell_group_summary1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="group_summary_label1" data-itemid="group_summary_label" {$item_group_summary_label} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Resumo para</span>
+	 
+		<span data-itemtype="group_summary_field_label" data-itemid="group_summary_field_label1" {$item_group_summary_field_label1} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}" data-field="Direc" data-fieldname="Direc">
+{$label Relat_rio_Sint_tico_de_Escolas Direc }</span>
+
+	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash5" {$item_group_summary_dash5} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="group_summary_field_value" data-itemid="group_summary_field_value1" {$item_group_summary_field_value1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Direc" data-fieldname="Direc" >
+{$Direc_grval}&nbsp;
+</span>	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash1" {$item_group_summary_dash1} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="group_summary_label2" data-itemid="group_summary_label3" {$item_group_summary_label3} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Total de Escola(s)</span>
+	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash2" {$item_group_summary_dash2} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="group_summary_count" data-itemid="group_summary_count1" {$item_group_summary_count1} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}" data-field="Direc" data-fieldname="Direc">
+{$groupDirec_total_cnt}
+</span>	
+	</td>
+	{END cellblock_grid_cell_group_summary1}
+			</tr>
+
+	{END Direc_endgroup}
+									{BEGIN Drae_endgroup}
+
+ 
+	<tr data-section="group-summary" data-group="Drae" data-rowidx="6" {$rowattrs} {$row_grid_6} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_group_summary}
+	<td
+	
+	{$cell_grid_cell_group_summary}
+	{$recordattrs}
+	class="
+		group_Drae 			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_cell_group_summary" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="group_summary_label1" data-itemid="group_summary_label1" {$item_group_summary_label1} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Resumo para</span>
+	 
+		<span data-itemtype="group_summary_field_label" data-itemid="group_summary_field_label" {$item_group_summary_field_label} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}" data-field="Drae" data-fieldname="Drae">
+{$label Relat_rio_Sint_tico_de_Escolas Drae }</span>
+
+	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash" {$item_group_summary_dash} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="group_summary_field_value" data-itemid="group_summary_field_value" {$item_group_summary_field_value} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="Drae" data-fieldname="Drae" >
+{$Drae_grval}&nbsp;
+</span>	 
+		<span data-itemtype="group_summary_label2" data-itemid="group_summary_label2" {$item_group_summary_label2} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Total de Ecola(s)</span>
+	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash3" {$item_group_summary_dash3} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="group_summary_count" data-itemid="group_summary_count" {$item_group_summary_count} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}" data-field="Drae" data-fieldname="Drae">
+{$groupDrae_total_cnt}
+</span>	 
+		<span data-itemtype="group_summary_dash" data-itemid="group_summary_dash4" {$item_group_summary_dash4} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	
+	</td>
+	{END cellblock_grid_cell_group_summary}
+			</tr>
+
+	{END Drae_endgroup}
+									{END grid_row}
+																			{BEGIN page_summary}
+
+ 
+	<tr data-section="page-summary" data-group="" data-rowidx="7" {$rowattrs} {$row_grid_7} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_page_summary}
+	<td
+	
+	{$cell_grid_cell_page_summary}
+	{$recordattrs}
+	class="
+		pagesummary 			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_cell_page_summary" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="page_summary_label1" data-itemid="page_summary_label1" {$item_page_summary_label1} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Página de resumo</span>
+	 
+		<span data-itemtype="page_summary_dash" data-itemid="page_summary_dash" {$item_page_summary_dash} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="page_summary_count" data-itemid="page_summary_count" {$item_page_summary_count} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}">
+{$page_total_cnt}
+</span>	 
+		<span data-itemtype="page_summary_label2" data-itemid="page_summary_label2" {$item_page_summary_label2} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Total de registros</span>
+	
+	</td>
+	{END cellblock_grid_cell_page_summary}
+			</tr>
+
+	{END page_summary}
+									{BEGIN global_summary}
+
+ 
+	<tr data-section="global-summary" data-group="" data-rowidx="8" {$rowattrs} {$row_grid_8} class="{$rowclass} 
+		
+				r-gridrow
+			">
+		 
+			{BEGIN cellblock_grid_cell_global_summary}
+	<td
+	
+	{$cell_grid_cell_global_summary}
+	{$recordattrs}
+	class="
+		globalsummary 			"
+
+			data-field="Drae"
+	
+	data-cellId="grid_cell_global_summary" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		<span data-itemtype="global_summary_label1" data-itemid="global_summary_label1" {$item_global_summary_label1} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Resumo Global</span>
+	 
+		<span data-itemtype="global_summary_dash" data-itemid="global_summary_dash" {$item_global_summary_dash} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+-</span>
+	 
+		<span data-itemtype="global_summary_count" data-itemid="global_summary_count" {$item_global_summary_count} data-pageid="{$pageid}" data-page="relat_rio_sint_tico_de_escolas_rprint" data-record-id="{$recId}">
+{$global_total_cnt}
+</span>	 
+		<span data-itemtype="global_summary_label2" data-itemid="global_summary_label2" {$item_global_summary_label2} data-pageid="{$pageid}" data-record-id="{$recId}" data-small >
+Total de registros</span>
+	
+	</td>
+	{END cellblock_grid_cell_global_summary}
+			</tr>
+
+	{END global_summary}
+			
+</tbody>	
+	
+</table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

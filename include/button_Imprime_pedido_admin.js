@@ -1,0 +1,6 @@
+
+Runner.buttonEvents["Imprime_pedido_admin"]=function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='Imprime_pedido_admin';if(!pageObj.buttonEventBefore['Imprime_pedido_admin']){pageObj.buttonEventBefore['Imprime_pedido_admin']=function(params,ctrl,pageObj,proxy,pageid,rowData,row,submit){var ajax=ctrl;}}
+if(!pageObj.buttonEventAfter['Imprime_pedido_admin']){pageObj.buttonEventAfter['Imprime_pedido_admin']=function(result,ctrl,pageObj,proxy,pageid,rowData,row,params){var ajax=ctrl;function post(path,parameters){var form=$('<form></form>');form.attr("method","post");form.attr("action",path);form.attr("target","_blank");$.each(parameters,function(key,value){var field=$('<input></input>');field.attr("type","hidden");field.attr("name",key);field.attr("value",value);form.append(field);});$(document.body).append(form);form.submit();}
+var message=result["error"];if(message==''){post('pedidos_print.php',{page:'print1',records:1,details:['itens']});}else{alert(message);}}}
+$('a[id="Imprime_pedido_admin"]').each(function(){if($(this).closest('.gridRowAdd').length){return;}
+this.id="Imprime_pedido_admin"+"_"+Runner.genId();var button_Imprime_pedido_admin=new Runner.form.Button({id:this.id,btnName:"Imprime_pedido_admin"});button_Imprime_pedido_admin.init({args:[pageObj,proxy,pageid]});});};

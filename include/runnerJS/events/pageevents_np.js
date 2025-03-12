@@ -1,0 +1,4 @@
+
+Runner.pages.PageSettings.addPageEvent('np',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){var ctrlSaldo_Anterior=Runner.getControl(pageid,'Sd_ant');var ctrlRepasse=Runner.getControl(pageid,'Saldo');var ctrlCredito=Runner.getControl(pageid,'Valor');function formatarComoMoeda(valor){return'R$ '+parseFloat(valor).toFixed(2).replace('.',',');}
+function func(){var saldoAnterior=+ctrlSaldo_Anterior.getValue();var repasse=+ctrlRepasse.getValue();var saldoAnteriorFormatado=formatarComoMoeda(saldoAnterior);var valor=(saldoAnterior+repasse).toFixed(2);ctrlCredito.setValue(valor);ctrlSaldo_Anterior.setValue(saldoAnteriorFormatado);}
+ctrlSaldo_Anterior.on('keyup',func);ctrlRepasse.on('keyup',func);;});

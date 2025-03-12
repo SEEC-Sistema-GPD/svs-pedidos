@@ -1,0 +1,677 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-search" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="search_header" data-itemid="search_header" {$item_search_header} data-pageid="{$pageid}" >{$pagetitlelabel escolas search}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN cod_escola_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cod_escola}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cod_escola{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field" {$item_integrated_search_field} data-pageid="{$pageid}" data-field="cod_escola" data-fieldname="cod_escola" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cod_escola}">
+		{$label escolas cod_escola }	</label>
+	<div class="r-search-option">
+		{$searchtype_cod_escola}
+	</div>
+	<div class="r-search-field">
+		{$cod_escola_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cod_escola_editcontrol1}
+	</div>
+	
+</div>
+
+{END cod_escola_fieldblock}
+											
+{BEGIN CNPJ_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_CNPJ}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="CNPJ{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field1" {$item_integrated_search_field1} data-pageid="{$pageid}" data-field="CNPJ" data-fieldname="CNPJ" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_CNPJ}">
+		{$label escolas CNPJ }	</label>
+	<div class="r-search-option">
+		{$searchtype_CNPJ}
+	</div>
+	<div class="r-search-field">
+		{$CNPJ_editcontrol}	</div>
+	<div class="r-search-field">
+		{$CNPJ_editcontrol1}
+	</div>
+	
+</div>
+
+{END CNPJ_fieldblock}
+											
+{BEGIN Nome_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Nome}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Nome{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field2" {$item_integrated_search_field2} data-pageid="{$pageid}" data-field="Nome" data-fieldname="Nome" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Nome}">
+		{$label escolas Nome }	</label>
+	<div class="r-search-option">
+		{$searchtype_Nome}
+	</div>
+	<div class="r-search-field">
+		{$Nome_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Nome_editcontrol1}
+	</div>
+	
+</div>
+
+{END Nome_fieldblock}
+											
+{BEGIN Endere_o_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Endere_o}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Endere_o{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field3" {$item_integrated_search_field3} data-pageid="{$pageid}" data-field="Endere_o" data-fieldname="Endereço" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Endere_o}">
+		{$label escolas Endere_o }	</label>
+	<div class="r-search-option">
+		{$searchtype_Endere_o}
+	</div>
+	<div class="r-search-field">
+		{$Endere_o_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Endere_o_editcontrol1}
+	</div>
+	
+</div>
+
+{END Endere_o_fieldblock}
+											
+{BEGIN Email_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Email}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Email{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field4" {$item_integrated_search_field4} data-pageid="{$pageid}" data-field="Email" data-fieldname="Email" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Email}">
+		{$label escolas Email }	</label>
+	<div class="r-search-option">
+		{$searchtype_Email}
+	</div>
+	<div class="r-search-field">
+		{$Email_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Email_editcontrol1}
+	</div>
+	
+</div>
+
+{END Email_fieldblock}
+											
+{BEGIN Telefone_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Telefone}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Telefone{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field5" {$item_integrated_search_field5} data-pageid="{$pageid}" data-field="Telefone" data-fieldname="Telefone" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Telefone}">
+		{$label escolas Telefone }	</label>
+	<div class="r-search-option">
+		{$searchtype_Telefone}
+	</div>
+	<div class="r-search-field">
+		{$Telefone_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Telefone_editcontrol1}
+	</div>
+	
+</div>
+
+{END Telefone_fieldblock}
+											
+{BEGIN Descri__o_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Descri__o}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Descri__o{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field6" {$item_integrated_search_field6} data-pageid="{$pageid}" data-field="Descri__o" data-fieldname="Descrição" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Descri__o}">
+		{$label escolas Descri__o }	</label>
+	<div class="r-search-option">
+		{$searchtype_Descri__o}
+	</div>
+	<div class="r-search-field">
+		{$Descri__o_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Descri__o_editcontrol1}
+	</div>
+	
+</div>
+
+{END Descri__o_fieldblock}
+											
+{BEGIN Drae_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Drae}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Drae{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field7" {$item_integrated_search_field7} data-pageid="{$pageid}" data-field="Drae" data-fieldname="Drae" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Drae}">
+		{$label escolas Drae }	</label>
+	<div class="r-search-option">
+		{$searchtype_Drae}
+	</div>
+	<div class="r-search-field">
+		{$Drae_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Drae_editcontrol1}
+	</div>
+	
+</div>
+
+{END Drae_fieldblock}
+											
+{BEGIN Bairro_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Bairro}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Bairro{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field8" {$item_integrated_search_field8} data-pageid="{$pageid}" data-field="Bairro" data-fieldname="Bairro" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Bairro}">
+		{$label escolas Bairro }	</label>
+	<div class="r-search-option">
+		{$searchtype_Bairro}
+	</div>
+	<div class="r-search-field">
+		{$Bairro_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Bairro_editcontrol1}
+	</div>
+	
+</div>
+
+{END Bairro_fieldblock}
+											
+{BEGIN Cidade_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Cidade}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Cidade{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field9" {$item_integrated_search_field9} data-pageid="{$pageid}" data-field="Cidade" data-fieldname="Cidade" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Cidade}">
+		{$label escolas Cidade }	</label>
+	<div class="r-search-option">
+		{$searchtype_Cidade}
+	</div>
+	<div class="r-search-field">
+		{$Cidade_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Cidade_editcontrol1}
+	</div>
+	
+</div>
+
+{END Cidade_fieldblock}
+											
+{BEGIN Estado_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Estado}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Estado{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field10" {$item_integrated_search_field10} data-pageid="{$pageid}" data-field="Estado" data-fieldname="Estado" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Estado}">
+		{$label escolas Estado }	</label>
+	<div class="r-search-option">
+		{$searchtype_Estado}
+	</div>
+	<div class="r-search-field">
+		{$Estado_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Estado_editcontrol1}
+	</div>
+	
+</div>
+
+{END Estado_fieldblock}
+											
+{BEGIN Lat_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Lat}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Lat{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field11" {$item_integrated_search_field11} data-pageid="{$pageid}" data-field="Lat" data-fieldname="Lat" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Lat}">
+		{$label escolas Lat }	</label>
+	<div class="r-search-option">
+		{$searchtype_Lat}
+	</div>
+	<div class="r-search-field">
+		{$Lat_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Lat_editcontrol1}
+	</div>
+	
+</div>
+
+{END Lat_fieldblock}
+											
+{BEGIN Lng_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Lng}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Lng{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field12" {$item_integrated_search_field12} data-pageid="{$pageid}" data-field="Lng" data-fieldname="Lng" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Lng}">
+		{$label escolas Lng }	</label>
+	<div class="r-search-option">
+		{$searchtype_Lng}
+	</div>
+	<div class="r-search-field">
+		{$Lng_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Lng_editcontrol1}
+	</div>
+	
+</div>
+
+{END Lng_fieldblock}
+											
+{BEGIN Direc_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Direc}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Direc{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field13" {$item_integrated_search_field13} data-pageid="{$pageid}" data-field="Direc" data-fieldname="Direc" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Direc}">
+		{$label escolas Direc }	</label>
+	<div class="r-search-option">
+		{$searchtype_Direc}
+	</div>
+	<div class="r-search-field">
+		{$Direc_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Direc_editcontrol1}
+	</div>
+	
+</div>
+
+{END Direc_fieldblock}
+											
+{BEGIN Cep_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Cep}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Cep{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field14" {$item_integrated_search_field14} data-pageid="{$pageid}" data-field="Cep" data-fieldname="Cep" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Cep}">
+		{$label escolas Cep }	</label>
+	<div class="r-search-option">
+		{$searchtype_Cep}
+	</div>
+	<div class="r-search-field">
+		{$Cep_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Cep_editcontrol1}
+	</div>
+	
+</div>
+
+{END Cep_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+	 
+	 
+														<tr {$row_grid_1} >
+										
+
+{BEGIN cellblock_grid_c4}
+<td
+	{$cell_grid_c4}
+	class=" r-ori-vert"
+	
+			data-single
+				data-fullwidth
+		
+			data-cellId="grid_c4" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN Tec_resp_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Tec_resp}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Tec_resp{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field15" {$item_integrated_search_field15} data-pageid="{$pageid}" data-field="Tec_resp" data-fieldname="Tec_resp" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Tec_resp}">
+		{$label escolas Tec_resp }	</label>
+	<div class="r-search-option">
+		{$searchtype_Tec_resp}
+	</div>
+	<div class="r-search-field">
+		{$Tec_resp_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Tec_resp_editcontrol1}
+	</div>
+	
+</div>
+
+{END Tec_resp_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c4}
+								</tr>
+	 
+	 
+														<tr {$row_grid_2} >
+										
+
+{BEGIN cellblock_grid_c}
+<td
+	{$cell_grid_c}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c" data-pageid="{$pageid}"
+		data-v-cell="6"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN Arquivos_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Arquivos}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Arquivos{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field16" {$item_integrated_search_field16} data-pageid="{$pageid}" data-field="Arquivos" data-fieldname="Arquivos" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Arquivos}">
+		{$label escolas Arquivos }	</label>
+	<div class="r-search-option">
+		{$searchtype_Arquivos}
+	</div>
+	<div class="r-search-field">
+		{$Arquivos_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Arquivos_editcontrol1}
+	</div>
+	
+</div>
+
+{END Arquivos_fieldblock}
+											
+{BEGIN Obs_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Obs}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Obs{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field17" {$item_integrated_search_field17} data-pageid="{$pageid}" data-field="Obs" data-fieldname="Obs" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Obs}">
+		{$label escolas Obs }	</label>
+	<div class="r-search-option">
+		{$searchtype_Obs}
+	</div>
+	<div class="r-search-field">
+		{$Obs_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Obs_editcontrol1}
+	</div>
+	
+</div>
+
+{END Obs_fieldblock}
+											
+{BEGIN EmailDrae_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_EmailDrae}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="EmailDrae{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field18" {$item_integrated_search_field18} data-pageid="{$pageid}" data-field="EmailDrae" data-fieldname="EmailDrae" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_EmailDrae}">
+		{$label escolas EmailDrae }	</label>
+	<div class="r-search-option">
+		{$searchtype_EmailDrae}
+	</div>
+	<div class="r-search-field">
+		{$EmailDrae_editcontrol}	</div>
+	<div class="r-search-field">
+		{$EmailDrae_editcontrol1}
+	</div>
+	
+</div>
+
+{END EmailDrae_fieldblock}
+											
+{BEGIN Municipio_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_Municipio}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="Municipio{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field19" {$item_integrated_search_field19} data-pageid="{$pageid}" data-field="Municipio" data-fieldname="Municipio" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_Municipio}">
+		{$label escolas Municipio }	</label>
+	<div class="r-search-option">
+		{$searchtype_Municipio}
+	</div>
+	<div class="r-search-field">
+		{$Municipio_editcontrol}	</div>
+	<div class="r-search-field">
+		{$Municipio_editcontrol1}
+	</div>
+	
+</div>
+
+{END Municipio_fieldblock}
+											
+{BEGIN cod_fee_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_cod_fee}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="cod_fee{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field20" {$item_integrated_search_field20} data-pageid="{$pageid}" data-field="cod_fee" data-fieldname="cod_fee" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_cod_fee}">
+		{$label escolas cod_fee }	</label>
+	<div class="r-search-option">
+		{$searchtype_cod_fee}
+	</div>
+	<div class="r-search-field">
+		{$cod_fee_editcontrol}	</div>
+	<div class="r-search-field">
+		{$cod_fee_editcontrol1}
+	</div>
+	
+</div>
+
+{END cod_fee_fieldblock}
+											
+{BEGIN fullname_fieldblock}
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_fullname}  r-horizontal-field form-horizontal" 	
+	data-signal-error-for="fullname{$id}" 
+	data-itemtype="integrated_search_field" data-itemid="integrated_search_field21" {$item_integrated_search_field21} data-pageid="{$pageid}" data-field="fullname" data-fieldname="fullname" >
+
+
+	<label class="r-search-label control-label" for="{$labelfor_fullname}">
+		{$label escolas fullname }	</label>
+	<div class="r-search-option">
+		{$searchtype_fullname}
+	</div>
+	<div class="r-search-field">
+		{$fullname_editcontrol}	</div>
+	<div class="r-search-field">
+		{$fullname_editcontrol1}
+	</div>
+	
+</div>
+
+{END fullname_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="search_search" data-itemid="search_search" {$item_search_search} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$searchbutton_attrs} >
+							Buscar			</a>
+</span>
+	 
+		<span data-itemtype="search_reset" data-itemid="search_reset" {$item_search_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$resetbutton_attrs} >
+							Limpar			</a>
+</span>
+	 
+		{BEGIN back_button}
+<span data-itemtype="search_back_list" data-itemid="search_back_list" {$item_search_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Voltar à Lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="search_cancel" data-itemid="search_cancel" {$item_search_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							Cancela			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

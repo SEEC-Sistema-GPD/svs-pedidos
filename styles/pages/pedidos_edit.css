@@ -1,0 +1,39 @@
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] {
+  width: 500px;
+}
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > * > input,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > * > textarea,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > * > select,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > * > * > select,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > .form-control-static,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > [id^=view],
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] label,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"][data-page="pedidos_edit"][data-itemid="integrated_edit_field2"] > * > .r-readonly-control {
+  white-space: nowrap;
+}
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"] > * > label,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"] > * > * > input,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"] > * > * > textarea,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"] > * > * > select,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"] > * > * > .r-readonly-control,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"][data-page="pedidos_edit"][data-itemid="integrated_edit_field"] > * > * > * > select {
+  color: #ffffff;
+}
+[data-page="pedidos_edit"][data-itemid="edit_field_label"][data-page="pedidos_edit"][data-itemid="edit_field_label"][data-page="pedidos_edit"][data-itemid="edit_field_label"][data-page="pedidos_edit"][data-itemid="edit_field_label"] {
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+}
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"] > * > label,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"] > * > * > input,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"] > * > * > textarea,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"] > * > * > select,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"] > * > * > .r-readonly-control,
+[data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"][data-page="pedidos_edit"][data-itemid="integrated_edit_field4"] > * > * > * > select {
+  color: #ffffff;
+}
+[data-page="pedidos_edit"][data-itemid="page_image_ash8f23hr"] {
+  width: 400px;
+}
+
+

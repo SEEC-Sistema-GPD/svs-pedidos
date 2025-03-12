@@ -1,0 +1,157 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel pedidos_view export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$Parcela_pdfvalue},"hidden":"{$item_hide_export_field9}"},
+				
+				
+			{"text":{$Nome_pdfvalue},"hidden":"{$item_hide_export_field2}"},
+				
+				
+			{"text":{$cod_pdfvalue},"hidden":"{$item_hide_export_field}"},
+				
+				
+			{"text":{$status_pdfvalue},"hidden":"{$item_hide_export_field1}"},
+				
+				
+			{"text":{$Data_cad_pdfvalue},"hidden":"{$item_hide_export_field3}"},
+				
+				
+			{"text":{$Exec_cio_pdfvalue},"hidden":"{$item_hide_export_field4}"},
+				
+				
+			{"text":{$cnpj_fornecedor_pdfvalue},"hidden":"{$item_hide_export_field5}"},
+				
+				
+			{"text":{$Num_NP_pdfvalue},"hidden":"{$item_hide_export_field6}"},
+				
+				
+			{"text":{$Drae_pdfvalue},"hidden":"{$item_hide_export_field7}"},
+				
+				
+			{"text":{$Municipio_pdfvalue},"hidden":"{$item_hide_export_field8}"},
+				
+				
+			{"text":{$Bairro_pdfvalue},"hidden":"{$item_hide_export_field10}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  
