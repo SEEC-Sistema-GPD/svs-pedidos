@@ -2,7 +2,7 @@
 FROM php:8.1-apache
 
 # Copia todo o conteúdo da pasta svs-pedidos para o diretório padrão do Apache
-COPY svs-pedidos/ /var/www/html/
+COPY . /var/www/html/
 
 # Habilita o módulo mod_rewrite, se necessário pela aplicação
 RUN a2enmod rewrite

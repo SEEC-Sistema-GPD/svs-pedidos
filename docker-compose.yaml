@@ -4,7 +4,7 @@ services:
   web:
     build: .
     ports:
-      - "56:80"
+      - "8083:80"
     # Se a aplicação necessitar persistência de dados (uploads, logs, etc.), configure os volumes:
     # volumes:
     #   - ./svs-pedidos/uploads:/var/www/html/uploads
